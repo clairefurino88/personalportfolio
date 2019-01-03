@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/icon.png"/>
+	</head>
+	<body class="left-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="wrapper">
+
+					<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">Work Experience</a></li>
+							<li class="current"><a>Coding Projects</a></li>
+							<li>
+								<a>Other</a>
+								<ul>
+									<li><a href="piano.html">Piano</a></li>
+									<li><a href="soccer.html">Soccer</a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="wrapper style2" style="padding-top: 0em;">
+					<div class="title" style="margin-top: 0;">My Projects</div>
+					<div class="container">
+						<div class="row gtr-150">
+							<div class="col-4 col-12-medium">
+
+								<!-- Sidebar -->
+									<div id="sidebar">
+										<section class="box">
+											<header>
+												<h2>UnitedHealth Group</h2>
+											</header>
+											<ul class="style3">
+												<li><h3>Reading Comprehension</h3>
+													<p>I have worked with reading comprehension to fit a huge use case:
+														reducing employee lookup time in documentation by adapting a reading
+														comprehension model - Google's QANet - to healthcare purposes so that
+														answering to patient questions in real-time can be automated.</p>
+													   I have improved near state-of-the-art inference accuracy by 4%
+														and seek to continue to improve performance through data augmentation
+														and hyperparameter tuning.
+												</li>
+												<li><h3>Topic Analysis</h3>
+													<p>Given the abundance of patient recordings and transcriptions from surveys,
+														my task was to perform topic analysis on them and generate clusters of topics.
+														I designed and implemented a complete pipeline - word and sentence embeddings,
+														clusterings, and projections for visualization - that generates well-defined
+														clusters by topic and is reusable for future datasets.</p>
+													There are aspects of deep learning with the usage of ELMo for word embeddings
+														as well as traditional NLP methods such as k-Means to generate the clusters and
+														t-SNE to produce 3D vectors for visualization.
+												</li>
+											</ul>
+										</section>
+										<section class="box">
+											<header>
+												<h2>Asia-Pacific Entrepreneurship Society:<br class="mobile-hide" />Tech Team</h2>
+											</header>
+											<ul class="style3">
+												<li><h3>Alumni Database</h3>
+													A work in hiatus, the alumni database is a SQL-based database, deployed on Flask,
+														meant to contain the information of all ASES alumni and members.
+												</li>
+												<li><h3>Website Maintenance</h3>
+													As part of the ASES Tech Team, I am responsible for maintaining the ASES website,
+														and updating it regularly.
+												</li>
+											</ul>
+										</section>
+									</div>
+
+							</div>
+							<div class="col-8 col-12-medium imp-medium">
+
+								<!-- Content -->
+									<div id="content">
+										<article class="box post">
+											<header class="style1" style="text-align: left; padding-bottom: 0;">
+												<h2>Personal Projects</h2>
+											</header>
+											<header class="style1" style="text-align: left">
+												<p>ThoughtCloud <a href="https://github.com/eric-gan/ThoughtCloud" class="icon fa-github"></a></p>
+											</header>
+											<p>ThoughtCloud is an extension of my vision of accessible creativity.
+												It is only by contemplating the nature of our existence - our world
+												and society - that we will be able to perpetuate technological
+												advancement. My co-developer, Eric Gan, and I hope to facilitate
+												the dissemination of concepts and ideas through this platform by
+												scraping together general ideas, filtered by topic, and providing
+												that as a real-time refreshable feed for each user.</p>
+											<p>ThoughtCloud is currently locally-run on Flask and scrapes results
+												from pre-selected websites, allowing for filter by search keywords.
+												We hope to expand this service in the future by dropping the use
+												of a scraper altogether and implement it as more of a search engine.</p>
+											<header class="style1" style="text-align: left">
+												<p>uHealth <a href="https://github.com/vliu15/uhealth" class="icon fa-github"></a></p>
+											</header>
+											<p>uHealth is a prototype demo created by Team Ingenuity at Optum's
+												Boston Hackathon. Perhaps the biggest problem in healthcare is
+												efficient allocation of resources, which also includes patient
+												adherence to the healthcare plan provided. uHealth hopes to solve
+												this by providing easy access to an individual's data (i.e. real-time
+												figures, appointments, prescriptions, history) as well as an analytics
+												tab that makes predictions.</p>
+											<p>uHealth is locally-run on npm and the analytics tab features a diabetic's
+												prescription refills as predicted by RandomForest Regression, which is
+												trained on Kaggle datasets.</p>
+											<header class="style1" style="text-align: left">
+												<p>Heap Allocator(s) (private)</p>
+											</header>
+											<p>This project includes two implementations of a heap allocator: implicit
+												free list, and explicit free list. Both implement the malloc, free,
+												and realloc functions in C and maintain organization of heap memory.
+												Pass in a script of allocation calls (i.e. sample.script) to test.</p>
+											<header class="style1" style="text-align: left">
+												<p>Improved C Functions (private)</p>
+											</header>
+											<p>This features a handful of revised C functions (i.e. get()) that were
+												rewritten because of the flawed original implementations.</p>
+											<header class="style1" style="text-align: left">
+												<p>Maze-Solver Search Algorithms (private)</p>
+											</header>
+											<p>Features a graphical user interface that allows the user to solve various
+												mazes from a selection of search algorithms, including A* and Dijkstra's.</p>
+											<header class="style1" style="text-align: left">
+												<p>Munch <a href="files/munch-pitch-deck.pptx" class="icon fa-file-powerpoint-o"></a></p>
+											</header>
+											<p>Idea prototype for ASES's Bootcamp program. Munch seeks to facilitate meetups
+												over a meal by matching people up by food preferences, time availability,
+												common interests, etc.</p>
+										</article>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<section id="footer" class="wrapper">
+					<div class="title">Contact Me</div>
+					<div class="container">
+						<header class="style1">
+							<h2>I hope you have enjoyed my website!</h2>
+							<p>
+								Reach out to me below, if you are interested in my work or simply want to connect! :)
+							</p>
+						</header>
+					</div>
+					<div id="copyright">
+						<ul>
+							<li><a href="mailto:vliu15@stanford.edu" class="icon fa-envelope"></a></li>
+							<li><a href="https://github.com/vliu15" class="icon fa-github"></a></li>
+							<li><a href="www.linkedin.com/in/vliu15" class="icon fa-linkedin"></a></li>
+						</ul>
+					</div>
+					
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
